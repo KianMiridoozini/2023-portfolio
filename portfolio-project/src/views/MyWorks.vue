@@ -98,7 +98,7 @@ import image3 from '@/assets/images/image-3.jpeg'
 import image4 from '@/assets/images/image-4.jpeg'
 import image5 from '@/assets/images/image-5.jpeg'
 import image6 from '@/assets/images/image-6.jpeg'
-import image7 from '@/assets/images/image-7.jpeg'
+
 
 export default {
   name: 'MyWorks',
@@ -112,7 +112,7 @@ export default {
         image4,
         image5,
         image6,
-        image7,
+
         // add more images as needed
       ]
     }
