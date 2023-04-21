@@ -135,6 +135,7 @@
     }
     .e-address{
         font-size: 1em;
+        text-align: center;
     }
 }
 
