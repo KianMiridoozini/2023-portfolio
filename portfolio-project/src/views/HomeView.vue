@@ -286,7 +286,7 @@ export default {
 }
 
 .progress-line .photo-n-video {
-  width: 75%;
+  width: 70%;
 }
 
 .progress-line .illustration {
