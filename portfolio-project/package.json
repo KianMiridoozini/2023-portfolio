@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "jQuery": "^1.7.4",
+    "vue": "^3.2.47",
+    "vue-plyr": "^7.0.0",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.4"
+  }
+}
+
+
+
