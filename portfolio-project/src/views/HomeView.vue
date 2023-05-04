@@ -137,7 +137,7 @@ export default {
     }
 
     .flex-container > div {
-        background-color: #e8c869d7;
+        
         width: 35%;
         text-align: left;
         padding: 2% 3% 4% 3%;
