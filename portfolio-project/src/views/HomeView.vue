@@ -29,7 +29,7 @@
                 <li>UX/UI</li>
               </ul>  
               <div class="CV-Link">
-                <a href="https://drive.google.com/uc?export=download&id=1W5dWjHTsZ6CzaEbg9Kz5GIbnl5NM0Y-q" target="_blank">Get my full CV</a>
+                <a href="https://drive.google.com/uc?export=download&id=1axZZ4diz-VzBFOM92sq4WTj8C8db-1gk" target="_blank">Get my full CV</a>
               </div> 
             </div>
           </div>
