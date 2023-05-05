@@ -12,6 +12,7 @@
             or help branding a product. It is important to me to contribute with everything 
             I have in my arsenal to fulfill both client’s and user’s needs.</p>
         </div>
+      
         <div class="inner-container">
           <div class="text-container2">
             <div class="education">
@@ -91,7 +92,7 @@ export default {
 <style>
     .body {
         border: 4px solid #000000;
-        box-shadow: 0 0 40px #8e1e52;
+        box-shadow: 0 0 40px 1px #8e1e52;
         height: 100%;
 
     }
@@ -109,7 +110,7 @@ export default {
         
     }
     .video-container:hover{
-        box-shadow: 0 5px 30px #8e1e52, 0 15px 12px rgba(0, 0, 0, 0.22);
+        box-shadow: 0 5px 30px #c12e72, 0 15px 12px rgba(0, 0, 0, 0.22);
     }
 
     .video-container iframe,
@@ -129,33 +130,37 @@ export default {
         background-color: #211427;
         justify-content: space-around;
         margin-bottom: -5%;
+        border-right: 10px white;
         border: 5px solid #000000;
         box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
     }
     .flex-container:hover{
-      box-shadow: 0 5px 30px #8e1e52, 0 15px 12px rgba(0, 0, 0, 0.22);
+      box-shadow: 0 5px 30px #c12e72, 0 15px 12px rgba(0, 0, 0, 0.22);
     }
 
     .flex-container > div {
-        
-        width: 35%;
+        color: white;
+        width: 45%;
         text-align: left;
+        
         padding: 2% 3% 4% 3%;
         font-size: 1.1rem;
         margin: 1%;
-        border: 2px solid #000000;
-        box-shadow: 0 0 4px 5px #8e1e52;
+      
+        /* border: 2px solid #000000;
+        box-shadow: 0 0 4px 5px #8e1e52; */
     }
-    .flex-container > div:hover{
+    /* .flex-container > div:hover{
       box-shadow: 0 0 4px 5px #c72a73;
       background-color: #e8c869eb;
-    }
+    } */
     .inner-container p {
         padding-top: 8%;
         text-align: start;
         letter-spacing: 2px;
-        line-height: 1.2;
+        line-height: 1.5;
         word-spacing: 1px;
+        
     }
 
     .inner-container {
@@ -163,6 +168,8 @@ export default {
         justify-content: center;
         border-radius: 8%;
         flex-wrap: wrap;
+        
+        
     }
 
     .text-container,
@@ -173,8 +180,15 @@ export default {
     }
 
     .text-container2 {
-        justify-content: start;
-        padding: auto;
+      
+       
+        padding-top: 8%;
+        text-align: start;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        word-spacing: 1px;
+        
+
     }
 
     .cv-skills {
@@ -188,32 +202,46 @@ export default {
     .education h2 {
         padding-bottom: 10%;
     }
+
     .CV-Link{
       padding-top: 40%;
     }
     .CV-Link a{   
-      color: #000000;
+      color: #f7f7f7;
     }
     .CV-Link a:hover{
       color: rgb(230, 0, 255);
     }
 
-    @media all and (max-width: 609px) {
+    @media all and (max-width: 300px) {
         .flex-container > div {
             width: 90%;
             height: auto;
             margin: 20px;
             border-radius: 2%;
+            
+        }
+
+    }
+    @media all and (max-width: 700px) {
+      .flex-container p {
+          text-align: justify;
+
         }
     }
 
-    @media all and (max-width: 700px) {
+    @media all and (max-width: 550px) {
         .flex-container > div {
             width: 90%;
             height: auto;
             margin: 20px;
             font-size: 1.1em;
-            
+            text-align: left;
+
+        }
+        .flex-container p {
+          text-align: justify;
+
         }
     }
 
@@ -233,13 +261,13 @@ export default {
 
   }
   .skills-bar:hover{
-    box-shadow: 0 5px 30px #8e1e52, 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 5px 30px #c12e72, 0 15px 12px rgba(0, 0, 0, 0.22);
   }
 
 .skills-bar h1 {
   color: #ffffff;
   text-align: center;
-  text-shadow: 0 6px 5px #8e1e52;
+  text-shadow: 0 6px 5px #c12e72;
 }
 
 .skills-bar .bar {
@@ -261,7 +289,7 @@ export default {
   height: 10px;
   width: 100%;
   background: #f0f0f0;
-  border-radius: 10px;
+ 
   transform: scaleX(0);
   transform-origin: left;
   animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
@@ -269,9 +297,9 @@ export default {
 
 .bar .progress-line span {
   position: absolute;
-  background: #e8c869e8;
+  background: #c12e73;
   height: 100%;
-  border-radius: 10px;
+
   transform: scaleX(0);
   transform-origin: left;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;

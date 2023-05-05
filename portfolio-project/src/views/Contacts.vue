@@ -1,25 +1,27 @@
 <template>
   <div class="body">
+    <div class="holder">
     <div class="c-flex-container">
       <div class="c-inner-container">
-        <h3 class="c-text-container">Follow me on my social media:</h3>
+        <h1 class="c-text-container">Follow me on my social media:</h1>
         <div class="c-icon-container">
 
-             <a href="https://www.facebook.com/kianmiridoozini"> <img class="icon" src="@/assets/icons/facebook.png" alt="icon" height="60px" >  </a>
-             <a href="https://www.youtube.com/@Kian.Miridoozini"> <img class="icon" src="@/assets/icons/youtube.png" alt="icon" height="60px"> </a>
-             <a href="https://www.linkedin.com/in/kian-miridoozini"> <img class="icon" src="@/assets/icons/linkedin.png" alt="icon" height="60px"> </a>
-             <a href="https://instagram.com"> <img class="icon" src="@/assets/icons/instagram.png" alt="icon" height="60px"> </a>
+             <a href="https://www.facebook.com/kianmiridoozini"> <img class="icon" src="@/assets/icons/facebook.png" alt="icon" height="69px" >  </a>
+             <a href="https://www.youtube.com/@Kian.Miridoozini"> <img class="icon" src="@/assets/icons/youtube.png" alt="icon" height="69px"> </a>
+             <a href="https://www.linkedin.com/in/kian-miridoozini"> <img class="icon" src="@/assets/icons/linkedin.png" alt="icon" height="69px"> </a>
+             <a href="https://instagram.com"> <img class="icon" src="@/assets/icons/instagram.png" alt="icon" height="69px"> </a>
 
         </div>
         <h3 class="c-text-container2">Contact me via:</h3>
           <div class="c-icon-container2">
-            <a href="https://gmail.com"> <img class="icon" src="@/assets/icons/gmail.png" alt="icon" height="60px"> </a>
+            <a href="https://gmail.com"> <img class="icon" src="@/assets/icons/gmail.png" alt="icon" height="90px"> </a>
             
           </div>
           <h2 class="e-address"> kian.miridoozini@gmail.COM</h2>
       </div>
     </div>
   </div>
+</div>
   </template>
 
 <script>
@@ -30,40 +32,47 @@
    };
   </script>
 
-<style>
+<style scoped>
 
 .body{
     border: 4px solid #000000;
-     box-shadow : 0 0 40px 5px  #8e1e52;
+     box-shadow : 0 0 40px 1px  #8e1e52;
+     
 
 }
+.holder{
+  margin: -1% 0.5%;
+}
+
 
 .c-flex-container {
-    margin-top: 5%;
-   display: flex;
-  flex-flow: row wrap;
-  flex-wrap: wrap;
-  background-color: #211427;
-  justify-content:space-around;
-  margin-bottom: 5%;
-  height: auto;
 
+  /* margin: -2% 5%; */
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    background-color: #211427;
+    justify-content: space-around;
+    /* margin-bottom: -5%; */
+    border: 5px solid #000000;
+    box-shadow: 0 5px 30px #0000004d, 0 15px 12px #00000038;
 }
 
+
+
 .c-flex-container > div {
-  background-color: #e8c869e8;
-  width: 50%;
+  background-color: #211427;
+  width: 90%;
      text-align: left;
   padding: 2% 5% 2% 5%;
    font-size: 2vw;
-   border: 4px solid #000000;
-  box-shadow: 0 0 4px 5px  #8e1e52;
+
+  color: white  ;
    
 }
-.c-flex-container > div:hover{
-  box-shadow: 0 0 4px 5px #c72a73;
-  background-color: #e8c869eb;
-}
+.c-flex-container:hover{
+  
+  box-shadow: 0 5px 30px #c12e72, 0 15px 12px rgba(0, 0, 0, 0.22);}
 .c-inner-container p{
     padding-top: 8%;
     text-align: start;
@@ -72,11 +81,10 @@
 .c-inner-container{
     display: flex;
     justify-content: center;
-    border-radius: 15%;
+    border-radius: 1%;
     flex-wrap: wrap;
     margin: 1%;
-     border: 2px solid #000000;
-     box-shadow: 0 0 4px 5px #8e1e52;
+
 }
 .c-text-container , .c-text-container2, .e-address{
     display: flex;

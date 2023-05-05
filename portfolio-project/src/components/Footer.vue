@@ -4,10 +4,10 @@
        <div class="footer">
          <div class="row">
             <ul>
-                  <li><a href="#">LinkedIn</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Instagram</a></li>
+                  <li><a href="https://www.linkedin.com/in/kian-miridoozini">LinkedIn</a></li>
+                  <li><a href="https://www.youtube.com/@Kian.Miridoozini">YouTube</a></li>
+                  <li><a href="https://www.facebook.com/kianmiridoozini">Facebook</a></li>
+                  <li><a href="https://instagram.com">Instagram</a></li>
             </ul>
          </div>
         <div class="row">

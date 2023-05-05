@@ -46,37 +46,37 @@
 <div class="mw-container"> <h1 class="container-text">Videos</h1>
   <div class="grid gallery"> 
     <div class="cell">
-      <img src="" alt="video-1">
+      <img src="@/assets/images/coming-soon.png" alt="video-1">
       <div class="description" style="position:absolute; bottom:0; left:0; right:0; background-color:rgba(0, 0, 0, 0.5); color:#fff; padding:10px;">
        
       </div>
     </div>
     <div class="cell">
-      <img src="" alt="video-2">
+      <img src="@/assets/images/coming-soon.png" alt="video-2">
       <div class="description" style="position:absolute; bottom:0; left:0; right:0; background-color:rgba(0, 0, 0, 0.5); color:#fff; padding:10px;">
      
       </div>
     </div>
     <div class="cell">
-      <img src="" alt="video-3">
+      <img src="@/assets/images/coming-soon.png" alt="video-3">
       <div class="description" style="position:absolute; bottom:0; left:0; right:0; background-color:rgba(0, 0, 0, 0.5); color:#fff; padding:10px;">
          
       </div>
     </div>
     <div class="cell">
-      <img src="" alt="video-4">
+      <img src="@/assets/images/coming-soon.png" alt="video-4">
       <div class="description" style="position:absolute; bottom:0; left:0; right:0; background-color:rgba(0, 0, 0, 0.5); color:#fff; padding:10px;">
          
       </div>
     </div>
     <div class="cell">
-      <img src="" alt="video-5">
+      <img src="@/assets/images/coming-soon.png" alt="video-5">
       <div class="description" style="position:absolute; bottom:0; left:0; right:0; background-color:rgba(0, 0, 0, 0.5); color:#fff; padding:10px;">
          
       </div>
     </div>
     <div class="cell">
-      <img src="" alt="video-6">
+      <img src="@/assets/images/coming-soon.png" alt="video-6">
       <div class="description" style="position:absolute; bottom:0; left:0; right:0; background-color:rgba(0, 0, 0, 0.5); color:#fff; padding:10px;">
          
       </div>
