@@ -43,7 +43,7 @@
   </div>
 </div>
 
-<div class="mw-container"> <h1 class="container-text">Videos</h1>
+<div class="mw-container"> <h1 class="container-text">Designs</h1>
   <div class="grid gallery"> 
     <div class="cell">
       <img src="@/assets/images/coming-soon.png" alt="video-1">

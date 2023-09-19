@@ -53,6 +53,12 @@
           </div>
           <div class="bar">
             <div class="info">
+              <span>WORDPRESS</span>
+            </div>
+            <div class="progress-line"><span class="wordpress"></span></div>
+          </div>
+          <div class="bar">
+            <div class="info">
               <span>PHOTO & VIDEO</span>
             </div>
             <div class="progress-line"><span class="photo-n-video"></span></div>
@@ -312,9 +318,11 @@ export default {
 .progress-line .css {
   width: 65%;
 }
-
-.progress-line .photo-n-video {
+.progress-line .wordpress {
   width: 70%;
+}
+.progress-line .photo-n-video {
+  width: 75%;
 }
 
 .progress-line .illustration {
@@ -358,9 +366,12 @@ export default {
 .progress-line .css::after {
   content: "65%";
 }
+.progress-line .wordpress::after {
+  content: "70%";
+}
 
 .progress-line .photo-n-video::after {
-  content: "70%";
+  content: "75%";
 }
 
 .progress-line .illustration::after {
